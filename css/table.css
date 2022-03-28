@@ -1,0 +1,33 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    padding: 10px;
+    text-align: left;
+}
+
+.table__cell {
+    margin: 0 auto;
+    border: 2px inset rgb(114, 106, 106);
+    padding: 15px;
+    text-align: center;
+}
+
+
+.table__header {
+    background: rgb(219, 189, 194);
+}
+
+.table__row:nth-child(odd) {
+    background: rgb(230, 217, 235);
+}
+
+.table__row:hover {
+    background: rgb(224, 137, 156);
+}
+
+.table__container {
+    overflow-x: auto;
+}

@@ -1,0 +1,13 @@
+.header {
+    color: rgb(90, 9, 27);
+    border-bottom: 4px solid beige
+}
+.header__button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: beige;
+    color: rgb(22, 1, 5);
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 7px;
+    font-weight: 500;
+}

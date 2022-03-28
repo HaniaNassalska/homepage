@@ -1,0 +1,8 @@
+
+.body {
+    background: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+}
+.body__blueBackground {
+    background: rgb(231, 234, 252);
+}
