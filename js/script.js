@@ -5,8 +5,8 @@ let themName = document.querySelector(".themName");
 
 buttonElement.addEventListener("click", () => {
     container.classList.toggle("container__whiteBackground");
-    body.classList.toggle("body__greyBackground");
+    body.classList.toggle("body__yellowBackground");
 
-    themName.innerText = body.classList.contains("body__blueBackground") ? "Przywróć" : "Zmień";
+    themName.innerText = body.classList.contains("body__yellowBackground") ? "Przywróć" : "Zmień";
 });
 
