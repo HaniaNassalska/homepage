@@ -1,7 +1,7 @@
 .section__header {
     color: black;
     border-bottom: 3px solid yellow;
-
-.section_subHeader {
-    color: black;
 }
+.section__subHeader {
+    color: black;
+   }
