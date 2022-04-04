@@ -1,12 +1,12 @@
 .container {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Red Hat Mono", sans-serif;
     font-size: 17px;
     line-height: 1.8;
     padding: 10px 25px;
     max-width: 1000px;
     margin: 0 auto;
-    background: rgb(250, 250, 255);
-    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    border: solid black;
 }
 
 

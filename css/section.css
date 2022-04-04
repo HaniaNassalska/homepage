@@ -1,9 +1,7 @@
 .section__header {
-    color: rgb(114, 9, 27);
-    border-bottom: 3px solid beige;
-}
-
+    color: black;
+    border-bottom: 3px solid yellow;
 
 .section_subHeader {
-    color: rgb(114, 9, 27);
+    color: black;
 }

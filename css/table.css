@@ -17,15 +17,15 @@
 
 
 .table__header {
-    background: rgb(219, 189, 194);
+    background: rgb(236 236 245);
 }
 
 .table__row:nth-child(odd) {
-    background: rgb(230, 217, 235);
+    background: rgb(236 236 245);
 }
 
 .table__row:hover {
-    background: rgb(224, 137, 156);
+    background: yellow;
 }
 
 .table__container {

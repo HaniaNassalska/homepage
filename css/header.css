@@ -1,14 +1,14 @@
 .header {
-    color: rgb(90, 9, 27);
-    border-bottom: 4px solid beige
+    color: black;
+    border-bottom: 4px solid yellow;
 }
 
 .header__button {
-    font-family: 'Montserrat', sans-serif;
-    background-color: beige;
-    color: rgb(22, 1, 5);
+    font-family: "Red Hat Mono", sans-serif;
+    background-color: rgb(22, 1, 5);
+    color: white;
     padding: 15px;
     font-size: 13px;
-    border-radius: 7px;
     font-weight: 500;
+    border: solid yellow;
 }
