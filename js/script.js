@@ -1,11 +1,22 @@
-let buttonElement = document.querySelector(".js-header__button");
-let body = document.querySelector(".body");
-let themName = document.querySelector(".themName");
+{
 
-buttonElement.addEventListener("click", () => {
-    body.classList.toggle("body__backgroundImage");
+    const backgroundToggle = () => {
+        const container = document.querySelector(".container");
+        const themName = document.querySelector(".themName");
+        container.classList.toggle("container__backgroundImage");
+        themName.innerText = container.classList.contains("container__backgroundImage") ? "Zmień" : "Przywróć";
 
 
-    themName.innerText = body.classList.contains("body__backgroundImage") ? "Zmień" : "Przywróć";
-});
+    };
+    const init = () => {
+        const buttonElement = document.querySelector(".js-header__button");
+
+        buttonElement.addEventListener("click", backgroundToggle);
+
+    }
+    init();
+}
+
+
+
 

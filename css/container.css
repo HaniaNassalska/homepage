@@ -5,6 +5,10 @@
     padding: 10px 25px;
     max-width: 1000px;
     margin: 0 auto;
-    background: rgb(255, 255, 255);
     border: solid black;
+    background-color: white;
+}
+
+.container__backgroundImage {
+    background-image: url(../images/containerBackgroundImage.png);
 }
