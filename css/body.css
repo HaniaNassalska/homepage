@@ -1,8 +1,9 @@
-.body {
-    background: white;
-    color: rgb(2, 2, 2);
+.body__backgroundImage {
+    background-image: url(../images/backgroundImage.png);
+
 }
 
-.body__yellowBackground {
-    background: rgb(255 243 44);
+.body__whiteBackground {
+    background: white;
+
 }

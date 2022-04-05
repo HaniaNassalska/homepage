@@ -12,3 +12,8 @@
     font-weight: 500;
     border: solid yellow;
 }
+.header__button:hover {
+    background-color: yellow;
+    color:black;
+    border: solid black;
+}
