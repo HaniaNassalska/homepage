@@ -16,7 +16,7 @@
 }
 
 
-.table__header {
+.table__cell--header {
     background: rgb(236 236 245);
 }
 .table__row:nth-child(even) {
